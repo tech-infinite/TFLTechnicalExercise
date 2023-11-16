@@ -22,6 +22,11 @@ namespace TFLTechnicalExercise.PageObjects
             recentsTab.Click();
         }
 
+        public bool AreCookiesEnabled() 
+        {
+            return true;
+        }
+
         public bool AreRecentsDisplayed()
         {
            return true;
