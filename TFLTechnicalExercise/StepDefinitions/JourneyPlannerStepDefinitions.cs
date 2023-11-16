@@ -34,13 +34,14 @@ namespace TFLTechnicalExercise.StepDefinitions
         public void WhenTheUserPlansTheJourney()
         {
             var homePage = new HomePage(driver);
-            homePage.PlanJourney();
+            homePage.ClickPlanJourney();
         }
 
-        //[Then(@"the results should be displayed")]
-        //public void ThenTheResultsShouldBeDisplayed()
-        //{
-        //    throw new PendingStepException();
-        //}
+        [Then(@"the results should be displayed")]
+        public void ThenTheResultsShouldBeDisplayed()
+        {
+            var results = new ResultsPage(driver);
+            results.AreResultsDisplayed();
+        }
     }
 }

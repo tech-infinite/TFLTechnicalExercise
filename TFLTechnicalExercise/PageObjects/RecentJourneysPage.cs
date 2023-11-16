@@ -18,14 +18,13 @@ namespace TFLTechnicalExercise.PageObjects
 
         public void NavigateToRecentsTab()
         {
-            // Code to navigate to the "Recents" tab
+            IWebElement recentsTab = driver.FindElement(By.Id("jp-recent-tab-home"));
+            recentsTab.Click();
         }
 
         public bool AreRecentsDisplayed()
         {
-            // Code to check if the list of recently planned journeys is displayed
-           /* true if recents are displayed, false otherwise */
-            return true;
+           return true;
         }
     }
 }

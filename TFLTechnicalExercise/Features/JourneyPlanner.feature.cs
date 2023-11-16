@@ -109,6 +109,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
     testRunner.And("the user plans the journey", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
+#line 7
+    testRunner.Then("the results should be displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }
