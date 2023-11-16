@@ -13,7 +13,7 @@ namespace TFLTechnicalExercise.PageObjects
 
         public RecentJourneysPage(IWebDriver driver)
         {
-            this.driver = driver ?? throw new ArgumentNullException(nameof(driver), "Driver cannot be null.")
+            this.driver = driver ?? throw new ArgumentNullException(nameof(driver), "Driver cannot be null.");
         }
 
         public void NavigateToRecentsTab()

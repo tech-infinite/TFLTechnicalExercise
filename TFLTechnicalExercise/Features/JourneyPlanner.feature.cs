@@ -106,6 +106,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
     testRunner.When("valid locations are entered into the widget", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 6
+    testRunner.And("the user plans the journey", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
             }
             this.ScenarioCleanup();
         }
